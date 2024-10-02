@@ -1,0 +1,68 @@
+/* Estilos Globais */
+body {
+    margin: 0; /* Remove margens padrão do body para evitar espaçamentos indesejados */
+    background-color: #f8f8f8; /* Cor de fundo leve para a página */
+    color: #212427; /* Cor do texto principal */
+    font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto, criando um visual moderno e limpo */
+}
+
+/* Estilo para Títulos */
+h1 {
+    width: fit-content; /* Ajusta a largura do título ao seu conteúdo */
+    margin: auto; /* Centraliza o título horizontalmente */
+    font-weight: 700; /* Aplica um peso de fonte mais espesso para destaque */
+}
+
+/* Seção de Instruções */
+.instrucoes {
+    width: 80%; /* Define a largura da seção de instruções como 80% da tela */
+    margin: auto; /* Centraliza a seção de instruções na página */
+    text-align: left; /* Alinha o texto à esquerda */
+    font-weight: 400; /* Peso normal para o texto */
+}
+
+/* Quadro Principal */
+.quadro-principal {
+    border-radius: 5px; /* Bordas arredondadas para o quadro */
+    width: 80%; /* Largura do quadro principal */
+    height: 350px; /* Altura fixa do quadro (pode ser ajustada conforme necessário) */
+    margin: auto; /* Centraliza o quadro na página */
+    background-color: antiquewhite; /* Cor de fundo para o quadro principal */
+    border: solid 2px #212427; /* Borda sólida e escura para o quadro */
+    display: flex; /* Usa flexbox para alinhar os elementos filhos */
+    justify-content: space-around; /* Distribui os círculos uniformemente ao longo da linha */
+    align-items: flex-start; /* Alinha os círculos no topo do quadro */
+    position: relative; /* Permite que os elementos filhos sejam posicionados absolutamente dentro do quadro */
+}
+
+/* Estilo para os Círculos */
+.circulo {
+    width: 80px; /* Largura dos círculos */
+    height: 80px; /* Altura dos círculos */
+    border-radius: 50%; /* Forma circular */
+    text-align: center; /* Centraliza texto horizontalmente dentro do círculo */
+    display: flex; /* Usado para alinhar o conteúdo dentro do círculo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    position: absolute; /* Permite posicionamento absoluto dos círculos dentro do quadro */
+}
+
+/* Cores para os Círculos */
+.cor1 {
+    background-color: #ED145B; /* Cor do círculo 1 */
+    top: 0%; /* Posiciona o círculo 1 no topo do quadro */
+    left: 0%; /* Posiciona o círculo 1 à esquerda do quadro */
+}
+
+.cor2 {
+    background-color: #63B1BC; /* Cor do círculo 2 */
+    top: 77.2%; /* Posiciona o círculo 2 próximo à parte inferior do quadro */
+    left: 18%; /* Ajusta a posição do círculo 2 à direita */
+}
+
+.cor3 {
+    background-color: #EFB661; /* Cor do círculo 3 */
+    top: 50%; /* Posiciona o círculo 3 no meio do quadro */
+    left: 15%; /* Ajusta a posição do círculo 3 à direita */
+    transform: translate(-50%, -50%); /* Centraliza o círculo 3 em relação à sua posição */
+}
